@@ -1,0 +1,109 @@
+#grid {
+  display: grid;
+  grid-template-areas:
+    "title stats"
+    "score stats"
+    "board board"
+    "ctrls ctrls";
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: 2fr 1fr 6fr 1fr;
+  background-color: #fff4e6;
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  justify-self: center;
+}
+#title {
+  grid-area: title;
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+#score {
+  grid-area: score;
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+#stats {
+  grid-area: stats;
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+#board {
+  grid-area: board;
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+#controls {
+  grid-area: ctrls;
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+#grid2 {
+  display: grid;
+  grid-template-areas:
+    "title board"
+    "stats board"
+    "stats board"
+    "score ctrls";
+  grid-template-columns: 2fr 6fr;
+  grid-template-rows: 2fr 1fr 6fr 1fr;
+  background-color: #fff4e6;
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  justify-self: center;
+}
+#title2 {
+  grid-area: title;
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+#score2 {
+  grid-area: score;
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+#stats2 {
+  grid-area: stats;
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+#board2 {
+  grid-area: board;
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+#controls2 {
+  grid-area: ctrls;
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
